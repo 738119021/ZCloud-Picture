@@ -22,6 +22,6 @@ public class BaseResponse <T> implements Serializable {
     }
 
     public BaseResponse(ErrorCode errorCode){
-        this(errorCode.getCode(),null, errorCode.getMessage());
+          this(errorCode.getCode(),null, errorCode.getMessage());
     }
 }
